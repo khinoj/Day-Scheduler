@@ -3,23 +3,31 @@ var saveBtnEl = $('.saveBtn');
 var timeBlockEl = $('.time-block');
 var descriptionEl = $('.description');
 
-saveBtnEl.on('click', function () {
-  console.log('Got here');
-})
-
 const currentTime = dayjs().format('H');
 console.log(currentTime);
-
-
-
 
 function displayTime() {
   var timeNow = dayjs().format('MMM DD, YYYY [at] hh:mm:ss a');
   currentDayEl.text(timeNow);
 }
 
-setInterval(displayTime, 1000);
+function changePPP() {
+  for (var i = 9; i < 18; i++) {
+    var hourId = $('hour-' + i);
+    console.log(hourId);
 
+    
+
+  }
+};
+
+
+
+
+setInterval(displayTime, 1000);
+saveBtnEl.on('click', function () {
+  console.log('Got here');
+})
 
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
