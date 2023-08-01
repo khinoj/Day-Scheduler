@@ -1,6 +1,6 @@
 # Work Day Scheduler
 
-* started code given
+* Starter Code Given
 
 ## User Story
 * AS AN employee with a busy schedule
@@ -24,9 +24,9 @@
 
 ## Screenshot
 
-![]()
-![]()
-![]()
+![](./assets/images/image-1.PNG)
+![](./assets/images/image-2.PNG)
+
 
 ## Reference
 
@@ -35,4 +35,6 @@
 
 ## GitHub
 
+1. https://github.com/khinoj/Day-Scheduler
+2. https://khinoj.github.io/Day-Scheduler/
 
